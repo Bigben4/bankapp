@@ -398,6 +398,37 @@ FodyWeavers.xsd
 
 # VS Code files for those working on multiple tools
 .vscode/*
+
+# Project-specific additions
+# OneDrive / Office temporary files
+~$*~
+~$*
+
+# Local environment and secrets
+.env
+.env.*
+local.settings.json
+appsettings.Development.json
+
+# Database files commonly used in small projects
+*.sqlite
+*.sqlite3
+*.db3
+
+# Backup, temp and editor history
+*.bak
+*.backup
+*.tmp
+*.swp
+.history/
+
+# IDE specific
+.idea/
+
+# Ignore compiled installer or package files
+*.msi
+*.exe
+
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
